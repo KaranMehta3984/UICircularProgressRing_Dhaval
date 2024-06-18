@@ -232,8 +232,9 @@ open class UICircularProgressRing: UIView {
      ## Author
      Luis Padron
      */
-    @available(*, unavailable,
-    message: "This property is reserved for Interface Builder, use 'ringStyle' instead")
+//    @available(*, unavailable,
+//    message: "This property is reserved for Interface Builder, use 'ringStyle' instead")
+    // Karan Changes
     open var ibRingStyle: Int = 1 {
         willSet {
             let style = UICircularProgressRingStyle(rawValue: newValue)
@@ -563,8 +564,9 @@ open class UICircularProgressRing: UIView {
      ## Author
      Luis Padron
      */
-    @available(*, unavailable,
-    message: "This property is reserved for Interface Builder, use 'outerCapStyle' instead")
+//    @available(*, unavailable,
+//    message: "This property is reserved for Interface Builder, use 'outerCapStyle' instead")
+    // Karan Changes
     open var outerRingCapStyle: Int32 = 1 {
         willSet {
             switch newValue {
@@ -666,8 +668,9 @@ open class UICircularProgressRing: UIView {
      ## Author
      Luis Padron
      */
-    @available(*, unavailable,
-    message: "This property is reserved for Interface Builder, use 'innerCapStyle' instead")
+//    @available(*, unavailable,
+//    message: "This property is reserved for Interface Builder, use 'innerCapStyle' instead")
+    // Karan Changes
     open var innerRingCapStyle: Int32 = 2 {
         willSet {
             switch newValue {
